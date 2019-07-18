@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1555478976 source:c:\users\jande\documents\qut\cab202\assessment 1\assessment 1\debug.c
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<sys/time.h>
+	<time.h>
+	<math.h>
+	<stdbool.h>
+

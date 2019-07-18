@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Assessment 1" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Headers\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Assessment 1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lncurses" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Assessment 1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="curses" />
+			<Add option="lm" />
+			<Add option="zdk" />
+			<Add library="../ZDK/libzdk.a" />
+			<Add directory="../ZDK" />
+		</Linker>
+		<Unit filename="array_management.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="array_management.h" />
+		<Unit filename="debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="debug.h" />
+		<Unit filename="helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="program_images.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="program_images.h" />
+		<Unit filename="vacuum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vacuum.h" />
+		<Unit filename="vector_math.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vector_math.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
